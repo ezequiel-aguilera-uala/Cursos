@@ -1,5 +1,6 @@
-alias/abreviaturas: https://www.hschne.at/git-aliases/
+alias/abreviaturas
+https://www.hschne.at/git-aliases/
 
-Hola
+HolaChau
 
 
