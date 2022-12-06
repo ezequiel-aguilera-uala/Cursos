@@ -1,5 +1,6 @@
 alias/abreviaturas
-https://www.hschne.at/git-aliases/
+https://www.hschne.at/git-aliases/[
+Agrego en main esto]
 
 
 
