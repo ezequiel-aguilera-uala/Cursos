@@ -1,2 +1,0 @@
-
-gco {commit} {folder}: podemos traer una carpeta en específica de un commit en específico.
