@@ -4,6 +4,7 @@ git fetch: actualiza repo local, pero no directorio de trabajo. Para esto hace f
 git pull: git fetch + git merge
 git merge --abort (para abortar un merge)
 
+
 git reset --soft: Te saca los commit posteriores, pero no los elimina, y te deja los cambios en stagging area
 git reset       : Te saca los commit posteriores, pero no los elimina, y adempas de SACA LOS CAMBIOS en stagging area
 git reset --hard: elimina los commits que vienen después.
