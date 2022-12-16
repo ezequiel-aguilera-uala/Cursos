@@ -32,3 +32,5 @@ git log > log.txt - guardar los logs en un archivo txt
 cambio rama 5 x 2
 
 cambio 3 en rama 5
+
+cambio 4 en rama 5
