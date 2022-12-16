@@ -4,10 +4,15 @@ git fetch: actualiza repo local, pero no directorio de trabajo. Para esto hace f
 git pull: git fetch + git merge
 git merge --abort (para abortar un merge)
 
+git log --all --graph --decorate --oneline: para ver todo bonito
 
-git reset --soft: Te saca los commit posteriores, pero no los elimina, y te deja los cambios en stagging area
-git reset       : Te saca los commit posteriores, pero no los elimina, y adempas de SACA LOS CAMBIOS en stagging area
-git reset --hard: elimina los commits que vienen después.
+
+git reset --soft: Te saca los commit posteriores, pero no los elimina, y te deja los cambios en stagging area (pero no del directorio local)
+git reset       : Te saca los commit posteriores, pero no los elimina, y adempas de SACA LOS CAMBIOS en stagging area. (pero no del directorio local)
+git reset --hard: elimina los commits que vienen después, y también del directorio local los camvios
+
+git diff: stagging area con origin/main
+git diff main: stagging area con main
 
 Algunos comandos que pueden ayudar cuando colaboren con proyectos muy grandes de github:
 
@@ -29,5 +34,3 @@ git log – index.html- Busca los commits en un archivo en específico.
 git log -S “Por contenido”- Buscar los commits con el contenido dentro del archivo.
 git log > log.txt - guardar los logs en un archivo txt
 
-
-cambio rama 5
