@@ -1,4 +1,4 @@
-
+{prueba revert}
 gco {commit} {folder}: podemos traer una carpeta en específica de un commit en específico.
 git fetch: actualiza repo local, pero no directorio de trabajo. Para esto hace falta un merge (el merge hace un fetch previo tengo entendido)
 git pull: git fetch + git merge
